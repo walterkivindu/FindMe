@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.design1.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mymenu"
+        android:orderInCategory="100"
+        android:title="@string/mymenu"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/AddFoundMenu"
+        android:orderInCategory="100"
+        android:title="@string/AddFoundMenu"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/AddLostMenu"
+        android:orderInCategory="100"
+        android:title="@string/AddLostMenu"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/ContactMenu"
+        android:orderInCategory="100"
+        android:title="@string/ContactMenu"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/Admin"
+        android:orderInCategory="100"
+        android:title="@string/AdminMenu"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/ViewLost"
+        android:orderInCategory="100"
+        android:title="@string/ViewLostMenu"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/ViewFound"
+        android:orderInCategory="100"
+        android:title="@string/ViewFoundMenu"
+        app:showAsAction="never"/>
+
+</menu>

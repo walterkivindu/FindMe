@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="31dp"
+        android:textStyle="bold"
+        android:text="@string/tt" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="19dp"
+        android:layout_marginRight="56dp"
+        android:text="@string/Next" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/button1"
+        android:layout_marginLeft="23dp"
+        android:text="@string/Previous" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtCLost"
+        android:layout_alignRight="@+id/button1"
+        android:text="@string/Foundchild"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtCFound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtCLost"
+        android:layout_alignBottom="@+id/txtCLost"
+        android:layout_alignRight="@+id/textView3"
+        android:text="@string/FName"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:contentDescription="@string/imagec"
+        android:id="@+id/imageLost"
+        android:layout_width="100sp"
+        android:layout_height="120dp"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/txtCLost"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/imageborder"
+        android:src="@drawable/employee_icon" />
+
+    <TextView
+        android:id="@+id/txtCLost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="32dp"
+        android:text="@string/LName"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="50dp"
+        android:text="@string/Lostchild"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:contentDescription="@string/imagec"
+        android:id="@+id/imageFound"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignTop="@+id/imageLost"
+        android:background="@drawable/imageborder"
+        android:src="@drawable/employee_icon" />
+
+    <TextView
+        android:id="@+id/txtReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginBottom="14dp"
+        android:text="" />
+
+</RelativeLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/lblname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Name"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblname"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lblPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtname"
+        android:text="@string/Place"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtPlace"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtname"
+        android:layout_toRightOf="@+id/lblPlace"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lblDOB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPlace"
+        android:text="@string/lblDOB"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPlace"
+        android:layout_toRightOf="@+id/lblDOB"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/lblDistrict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDate"
+        android:text="@string/lblDistrict"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtDistrict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDate"
+        android:layout_toRightOf="@+id/lblDistrict"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/lblPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDistrict"
+        android:text="@string/lblPrimary"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDistrict"
+        android:layout_toRightOf="@+id/lblPrimary"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/lblFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPrimary"
+        android:text="@string/lblFrom"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPrimary"
+        android:layout_toRightOf="@+id/lblFrom"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/lblPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtFrom"
+        android:text="@string/lblPic"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/txtFrom"
+        android:layout_toRightOf="@+id/lblPic"
+        android:scaleType="fitXY"
+        android:src="@drawable/img1" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton"
+        android:text="@string/Save"
+        android:textSize="24sp" />
+
+</RelativeLayout>

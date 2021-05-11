@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FindMe</string>
+    <string name="action_settings">Settings</string>
+    <string name="AdminMenu">Admin Login</string>
+    <string name="ContactMenu">Contacts</string>
+    <string name="AddLostMenu">Add Lost</string>
+    <string name="AddFoundMenu">Add Found</string>
+    <string name="mymenu">All  Menus</string>
+    <string name="employee_icon_alt">Employee Icon</string>
+    <string name="id">ID</string>
+    <string name="name">Name</string>
+    <string name="charge">Charge</string>
+    <string name="department">Department</string>
+    <string name="email">E-mail</string>
+    <string name="phone">Dob</string>
+    <string name="place">Place</string>
+    <string name="Start">Start</string>
+    <string name="bstart">Start</string>
+    <string name="bstop">Stop</string>
+    <string name="tabview1">View one</string>
+    <string name="bAdtab">Add a tab</string>
+    <string name="Tabs">Tabs</string>
+    <string name="Addlost">Add Lost</string>
+    <string name="Add_lost">Add Lost children</string>
+    <string name="Fragment1">Fragment1</string>
+    <string name="Fragment2">Fragment1</string>
+    <string name="First_Fragment">First Fragment</string>
+    <string name="Second_Fragment">Second Fragment</string>
+    <string name="Menu">List Menus</string>
+    <string name="ViewMenu">View Menu</string>
+    <string name="AddFound"> Add Found Child</string>
+    <string name="AddLost">Add Lost Child</string>
+    <string name="Chat">Chat</string>
+    <string name="Contacts">Contacts</string>
+    <string name="Donate">Donate</string>
+    <string name="Notice">Notice</string>
+    <string name="ViewFound">View Found Children</string>
+    <string name="Save">Save</string>
+    <string name="Name">Name:</string>
+    <string name="Place">Place:</string>
+    <string name="lblDOB">Date of Birth:</string>
+    <string name="FirstName">First Name:</string>
+    <string name="SecondName">SurName:</string>
+    <string name="lbDOB">Date Of Birth:</string>
+    <string name="lblfplace">Place:</string>
+    <string name="btndonate">Donate:</string>
+    <string name="dmoney">value to donate:$</string>
+    <string name="MyFragmentPagerAdapter">MyFragmentPagerAdapter</string>
+    <string name="lblDistrict">District:</string>
+    <string name="lblPrimary">Primary sch:</string>
+    <string name="lblFrom">From:</string>
+    <string name="lblPic">Photo:</string>
+    <string name="Photo">Photo:</string>
+    <string name="District">District:</string>
+    <string name="primary">Primary sch:</string>
+    <string name="editName">Name:</string>
+    <string name="editPlace">Place:</string>
+    <string name="editlblDOB">Date Of Birth:</string>
+    <string name="editlblDistrict">District:</string>
+    <string name="editlblPrimary">Primary Sch:</string>
+    <string name="editlblFrom">From:</string>
+    <string name="editlblPic">Photo:</string>
+    <string name="editSave">Save:</string>
+    <string name="editFirstName">First Name:</string>
+    <string name="editSecondName">Second Name:</string>
+    <string name="editlbDOB">Date Of Birth:</string>
+    <string name="editlblfplace">Place:</string>
+    <string name="editDistrict">District:</string>
+    <string name="editprimary">primary sch:</string>
+    <string name="editPhoto">Photo:</string>
+    <string name="editSave1">Save:</string>
+    <string name="Photoclass">Photo Class:</string>
+    <string name="ListLost">Lost Children List</string>
+    <string name="UpdateLost">Update Lost Child</string>
+    <string name="ListFound">List of Found children</string>
+    <string name="UpdateFound">Update Found child</string>
+    <string name="ViewLostClass">View Lost Children:</string>
+    <string name="ViewLostMenu">View Lost </string>
+    <string name="ViewFoundMenu">View Found </string>
+    <string name="Image1">Image1:</string>
+    <string name="F_Name:">F Name:</string>
+    <string name="S_Name:">S Name:</string>
+    <string name="Nick_Name:">Nick Name:</string>
+    <string name="District:">District:</string>
+    <string name="From:">From:</string>
+    <string name="DOB:">D.O.B:</string>
+    <string name="Gender:">Gender:</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Claim">Claim</string>
+    <string name="Current_Sch_Name:">Current Sch Name:</string>
+    <string name="Date:">Date:</string>
+    <string name="Found_at:">Found at:</string>
+    <string name="Found_details">Found in details</string>
+    <string name="ATitle">Login Here</string>
+    <string name="AName">Name :</string>
+    <string name="btnAsubmit">Submit</string>
+    <string name="APass">Password :</string>
+    <string name="btnACancel">Cancel</string>
+    <string name="user">Enter username</string>
+    <string name="Password">Enter Password</string>
+    <string name="imagec">Image</string>
+    <string name="Previous">Previous</string>
+    <string name="Next">Next>></string>
+    <string name="Lostchild">Lost child</string>
+    <string name="Foundchild">Foundchild</string>
+    <string name="LName">Name:</string>
+    <string name="FName">Name:</string>
+    <string name="tt">Find the matching records</string>
+    <string name="AdminLogin">Admin Login</string>
+    <string name="Compare">Compare</string>
+    <string name="Confirm">Confirm</string>
+    <string name="btnccclaim">Claim</string>
+    <string name="lblTitle">Register by Entering your phone number</string>
+    <string name="btbRegister">Register</string>
+    <string name="hint">Enter your phone number</string>
+    <string name="btnlogin">Login</string>
+    <string name="txtlogin">Enter your number here</string>
+    <string name="hit">Enter the code here</string>
+    <string name="lblRegister">Register Here</string>
+    <string-array name="country">
+        <item>+254</item>
+        <item>+255</item>
+        <item>+256</item>
+        <item>+1</item>
+        <item>+47</item>
+        <item>+253</item>
+        <item>+258</item>
+        <item>+260</item>
+    </string-array>
+    <string name="txtTitle">Login As Below</string>
+   <string name="txtCode">Enter Code Here</string>
+   <string name="btncode">Submit</string>
+   <string name="AutoLogin">Register</string>
+   <string name="Login">Login</string>
+   <string name="Verify">Verify</string>
+   <string name="txtVerify">Verify ur account by entering received code</string>
+
+</resources>

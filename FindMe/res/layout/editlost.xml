@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/editlblFName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editFirstName"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edittxtfName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/editlblFName"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/editlblLName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittxtfName"
+        android:text="@string/editSecondName"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edittxtLName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittxtfName"
+        android:layout_toRightOf="@+id/editlblLName"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/editlbDOB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittxtLName"
+        android:text="@string/editlbDOB"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edittxDOB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittxtLName"
+        android:layout_toRightOf="@+id/editlbDOB"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/editlblfplace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittxDOB"
+        android:text="@string/editlblfplace"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edittxtfplace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittxDOB"
+        android:layout_toRightOf="@+id/editlblfplace"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/editDistrict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittxtfplace"
+        android:text="@string/editDistrict"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edittextDistrict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittxtfplace"
+        android:layout_toRightOf="@+id/editDistrict"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/editPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edittextDistrict"
+        android:text="@string/editprimary"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edittextPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittextDistrict"
+        android:layout_toRightOf="@+id/editPrimary"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/editPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edittextPrimary"
+        android:text="@string/editPhoto"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/editimageButton1"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/edittextPrimary"
+        android:layout_toRightOf="@+id/editPhoto"
+        android:src="@drawable/img1" />
+
+    <Button
+        android:id="@+id/editbtnLSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editimageButton1"
+        android:layout_marginTop="20dp"
+        android:text="@string/editSave1"
+        android:textSize="24sp" />
+
+</RelativeLayout>

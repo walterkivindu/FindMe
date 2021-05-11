@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     >
+    <TextView
+        android:id="@+id/lblATitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ATitle"
+        android:layout_marginTop="25sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lblAName"
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/AName"
+        android:layout_below="@+id/lblATitle"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtAName"
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblATitle"
+        android:layout_toRightOf="@+id/lblAName"
+        android:ems="10"
+        android:layout_marginLeft="50sp"
+        android:hint="@string/user"
+        android:inputType="text" />
+    <TextView
+        android:id="@+id/lblAPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/APass"
+        android:layout_below="@+id/txtAName"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtAPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAName"
+        android:layout_toRightOf="@+id/lblAPass"
+        android:ems="10"
+        android:layout_marginLeft="10sp"
+        android:hint="@string/Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnASubmit"
+        android:layout_marginTop="180sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAsubmit"
+        android:textSize="24sp" />
+    <Button
+        android:layout_marginTop="180sp"
+        android:id="@+id/btnACancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnACancel"
+ 		android:layout_marginRight="25sp"
+        android:layout_alignParentRight="true"
+        android:textSize="24sp" />
+
+</RelativeLayout>

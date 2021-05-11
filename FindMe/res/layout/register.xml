@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/txtNumber"
+        android:text="@string/lblTitle"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNumber"
+        android:layout_marginTop="91dp"
+        android:layout_toLeftOf="@+id/txtNumber"
+        android:text="@string/btbRegister" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnRegister"
+        android:layout_alignBottom="@+id/btnRegister"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/lblRegister"
+        android:text="@string/btnlogin" />
+
+    <EditText
+        android:id="@+id/txtNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/lblRegister"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="60dp"
+        android:text="@string/lblRegister"
+        android:textSize="25sp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:entries="@array/country" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnRegister"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="22dp"
+        android:text="Name :" />
+
+    <EditText
+        android:id="@+id/txtUName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtNumber"
+        android:layout_below="@+id/spinner1"
+        android:ems="10"
+        android:hint="Enter username"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

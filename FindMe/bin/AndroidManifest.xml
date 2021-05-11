@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.findme"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+       <activity
+            android:name="com.example.findme.AutoLogin"
+            android:label="FindMe" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.findme.Tabs"
+            android:label="@string/Tabs" >
+        </activity>
+        <activity
+            android:name="com.example.findme.Menu"
+            android:label="@string/Menu" >
+        </activity>
+        <activity
+            android:name="com.example.findme.AddFound"
+            android:label="@string/AddFound" >
+        </activity>
+        <activity
+            android:name="com.example.findme.AddLost"
+            android:label="@string/AddLost" >
+        </activity>
+        <activity
+            android:name="com.example.findme.Chat"
+            android:label="@string/Chat" >
+        </activity>
+        <activity
+            android:name="com.example.findme.Contacts"
+            android:label="@string/Contacts" >
+        </activity>
+        <activity
+            android:name="com.example.findme.Donate"
+            android:label="@string/Donate" >
+        </activity>
+        <activity
+            android:name="com.example.findme.Notice"
+            android:label="@string/Notice" >
+        </activity>
+        <activity
+            android:name="com.example.findme.ViewFound"
+            android:label="@string/ViewFound" >
+        </activity>
+        <activity
+            android:name="com.example.findme.Message_Details"
+            android:label="Recieved Messages" >
+        </activity>
+        <activity
+            android:name="com.example.findme.MyFragmentPagerAdapter"
+            android:label="@string/MyFragmentPagerAdapter" >
+        </activity>
+        <activity
+            android:name="com.example.findme.ViewLost"
+            android:label="@string/ViewLostClass" >
+        </activity>
+        <activity
+            android:name="com.example.findme.Photo"
+            android:label="@string/Photoclass" >
+        </activity>
+        <activity
+            android:name="com.example.findme.ListLostChild"
+            android:label="@string/ListLost" >
+        </activity>
+        <activity
+            android:name="com.example.findme.UpdateLostChild"
+            android:label="@string/UpdateLost" >
+        </activity>
+        <activity
+            android:name="com.example.findme.ListFoundChild"
+            android:label="@string/ListFound" >
+        </activity>
+        <activity
+            android:name="com.example.findme.UpdateFoundChild"
+            android:label="@string/UpdateFound" >
+        </activity>
+        <activity
+            android:name="com.example.findme.Found_details"
+            android:label="Child Information" >
+        </activity>
+        <activity
+            android:name="com.example.findme.AdminLogin"
+            android:label="@string/AdminLogin" >
+        </activity>
+        <activity
+            android:name="com.example.findme.Compare"
+            android:label="@string/Compare" >
+        </activity>
+        <activity
+            android:name="com.example.findme.ConfirmClaim"
+            android:label="@string/Confirm" >
+        </activity>
+     
+        
+        <activity
+            android:name="com.example.findme.Login"
+            android:label="@string/Login" >
+        </activity>
+        <activity
+            android:name="com.example.findme.Verify"
+            android:label="@string/Verify" >
+        </activity>
+        <activity
+            android:name="com.example.findme.Contact_In_Detail"
+            android:label="Contacts" >
+        </activity>
+        <activity
+            android:name="com.example.findme.Contact_sms"
+            android:label="SMS" >
+        </activity>
+        <activity
+            android:name="com.example.findme.Contact_Message"
+            android:label="Send Message" >
+        </activity>
+        <activity
+            android:name="com.example.findme.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <service
+            android:name=".BackgroundService"
+            android:enabled="true" />
+    </application>
+
+</manifest>

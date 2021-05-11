@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblFName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FirstName"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtfName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblFName"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/lblLName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtfName"
+        android:text="@string/SecondName"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtLName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtfName"
+        android:layout_toRightOf="@+id/lblLName"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/lbDOB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblLName"
+        android:text="@string/lbDOB"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txDOB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLName"
+        android:layout_toRightOf="@+id/lbDOB"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/lblfplace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txDOB"
+        android:text="@string/lblfplace"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtfplace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txDOB"
+        android:layout_toRightOf="@+id/lblfplace"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/District"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtfplace"
+        android:text="@string/District"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/textDistrict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtfplace"
+        android:layout_toRightOf="@+id/District"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/Primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textDistrict"
+        android:text="@string/primary"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/textPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDistrict"
+        android:layout_toRightOf="@+id/Primary"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/Photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textPrimary"
+        android:text="@string/Photo"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/textPrimary"
+        android:layout_toRightOf="@+id/Photo"
+        android:scaleType="fitXY"
+        android:src="@drawable/img1" />
+
+    <Button
+        android:id="@+id/btnLSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageButton1"
+        android:layout_marginTop="20dp"
+        android:text="@string/Save"
+        android:textSize="24sp" />
+
+</RelativeLayout>
